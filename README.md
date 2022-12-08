@@ -91,7 +91,7 @@ This repository provides 1) a list of YouTube videos with Japanese subtitles (JT
 - [Shinji Watanabe](https://sites.google.com/view/shinjiwatanabe) (Carnegie Mellon University, USA)
 
 ## Scripts for data collection
-`scripts/*.py` are scripts for data collection from YouTube. Since processes of the scripts are language independent, users can collect data of their favorite languages. [youtube-dl](https://github.com/ytdl-org/youtube-dl) and ffmpeg are required.
+`scripts/*.py` are scripts for data collection from YouTube. Since processes of the scripts are language independent, users can collect data of their favorite languages. [yt-dlp](https://github.com/yt-dlp/yt-dlp) and ffmpeg are required.
 
 ### step1: making search words 
 The script `scripts/make_search_word.py` downloads the wikipedia dump file and finds words for searching videos. `{lang}` is the language code, e.g., `ja` (Japanese) and `en` (English).
@@ -135,7 +135,7 @@ $ python scripts/xxx.py
 - coming soon
 
 ## Link
-- [youtube-dl](https://github.com/ytdl-org/youtube-dl)
+- [yt-dlp](https://github.com/yt-dlp/yt-dlp)
 - [Other corpora by main contributor](https://sites.google.com/site/shinnosuketakamichi/publication/corpus)
 
 ## Update
